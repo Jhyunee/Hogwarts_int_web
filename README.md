@@ -40,7 +40,7 @@ ___Start from ↓___ <br>
 ![06](https://github.com/Jhyunee/Hogwarts_int_web/assets/104143072/f1a51552-ff62-4fb7-94e7-b40f2738ffb8)
 ![07](https://github.com/Jhyunee/Hogwarts_int_web/assets/104143072/7e5010b7-890d-4e33-9478-52b0a1fa67da)
 <br><br><br>
-* ___Only the owner of the admin account can upload & edit items in market.___
+* ___Only the owner of admin account can upload & edit items in market.___
 
 ![08](https://github.com/Jhyunee/Hogwarts_int_web/assets/104143072/153d82f4-43a8-4a99-9efe-8892592adf5d)
 ![09](https://github.com/Jhyunee/Hogwarts_int_web/assets/104143072/9be6f5b7-2fa1-4aef-8370-a0fd4fe846b1)
