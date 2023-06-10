@@ -1,0 +1,69 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/html/main.css">
+    <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+    <title>Hogwarts</title>
+</head>
+<body>
+    <div id="Wrapper">
+        <div id="top">
+            <div id="logo">
+                <img src="./resources/html/Hogwarts-Crest.png" alt="Harry Potter">
+            </div>
+        </div>
+        <br><hr>
+        <div id="middle">
+            <div id="menu">
+                <ul>
+                    <li><a href="./resources/html/about.html">About Harry Potter</a></li>
+                    <li><a href="./sorting.jsp">Houses</a></li>
+                    <li><a href="./market.jsp">Market place</a></li>
+                    <li><a href="./resources/html/Way.html">Way to Hogwarts</a></li>
+                    <li><a href="./resources/html/developer.html">Developer</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div id="main">
+                <div id="left">
+                    <br>
+                    <img id="h_title" src="./resources/html/welcome.png" style="width: 430px;">
+                    <p>Hogwarts School of Witchcraft and Wizardry,<br>
+                    British boarding school of magic</p><br>
+                    <p style="color: darkslategray;">Dream your magic -<br>In this Wizarding World</p><br>
+                    <div id="videos" style="border: 7px groove;">
+                        <video id="vid1" class="video-js vjs-big-play-button vjs-big-play-centered" width="100%"
+                            data-setup='{"controls": true, "fluid": true, "autoplay": true, "muted": false, "playbackRates": [0.5, 1, 1.5, 2]}'>
+                        <source src="./resources/html/Harry Potter 20th Anniversary- Return to Hogwarts Soundtrack - Hedwig¡¯s Theme - John Williams.mp4" type="video/mp4">
+                        <source src="./resources/html/Harry Potter 20th Anniversary- Return to Hogwarts Soundtrack - Hedwig¡¯s Theme - John Williams.mp4" type="video/webm">
+                        </video>
+                    </div>
+                    <div id="Lumos">
+                        <img src="./resources/html/lumos.png" style="width: 200px; padding-top: 40px;">
+                    </div>
+                </div>
+                <div id="right">
+                    <img id="h_title" src="./resources/html/news.png" style="width: 430px;">
+                    <p>Check our News Today !</p><br>
+                    <div id="news">
+                        <p id="title"><a href="#" style="color: gainsboro;">"Happenings in Gringotts Bank"</a></p>
+                        <img id="news1" src="./resources/html/dailyp2.gif" style="width: auto; max-width: 300px;">
+                        <p id="title"><a href="#" style="color: gainsboro;">"Sirius Black, Prisoner of Azkaban"</a></p>
+                        <img id="news2" src="./resources/html/dailyp1.gif" style="width: auto; max-width: 300px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            
+        </div>
+    </div>
+    </body>
+</html>

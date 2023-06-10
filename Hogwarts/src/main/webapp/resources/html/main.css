@@ -1,0 +1,195 @@
+* { margin: 0; padding: 0; }
+html { width: auto; }
+body {
+    width: 1180px;
+    margin: 10px auto;
+    background: linear-gradient( to bottom,
+            rgba(255, 255, 255, 1) 5%,
+            rgba(255, 255, 255, 1) 10%,
+            rgba(255, 255, 255, 0.8) 20%,
+            rgba(255, 255, 255, 0.6) 35%,
+            rgba(255, 255, 255, 0.4) 50%,
+            rgba(255, 255, 255, 0.2) 75%,
+            rgba(255, 255, 255, 0) 100% ), url('backg.jpg');
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+        #middle {
+            /* height: 800px; */
+            margin: 0 auto;
+            overflow: hidden; 
+            display: block;
+        }
+        #menu { 
+            width: 1180px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+            font-family: 'Cinzel Decorative', cursive;
+            font-weight: bold;
+            color: darkslategrey;
+        }
+
+        #main{
+            margin: 0 auto;
+            
+        }
+        #left {
+            /*background: gray;*/
+            float: left;
+            width: 700px;
+            margin-top: 20px;
+            text-align: center;
+            justify-content: center;
+            margin: auto;
+        }
+        #left > p {
+            margin: 0 auto;
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        #videos  { 
+            width: auto;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        #right { 
+            float: left;
+            /* background: lightskyblue; */
+            height: 800px; width: 480px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #right > p {
+            margin: 0 auto;
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        #right > img { text-align: center; }
+        #title {
+            margin: 0 auto;
+            font-family: cursive;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        #news1 { margin: 10px; border: 7px ridge blanchedalmond; }
+        #news2 { margin: 10px; border: 7px ridge burlywood; }
+
+        @media screen and (min-width: 768px) and (max-width: 1179px){
+            body { width: auto; }
+
+            #menu {
+                height: max-content; width: auto;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 8px 12px;
+                text-align: center;
+            }
+            #menu ul {
+                width: 255px;
+            }
+            #menu li {
+                width: max-content;
+            }
+            #top{
+                align-items: center;
+            }
+
+            #logo {
+                width: 767px;
+                text-align: center;
+                margin: auto;
+            }
+
+            #left { 
+                width: auto; 
+                float: none; 
+            }
+            #right { 
+                width: auto; 
+                float: none; 
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            html { width: auto; }
+            body { 
+                width: auto; 
+            }
+            
+            #menu {
+                height: max-content; width: auto;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 8px 12px;
+                text-align: center;
+            }
+            #menu ul {
+                width: 255px;
+            }
+            #menu li {
+                width: max-content;
+            }
+            #top{
+                align-items: center;
+            }
+
+            #h_title { width: auto; }
+
+            #logo {
+                width: 767px;
+                text-align: center;
+                margin: auto;
+            }
+
+            #left { 
+                width: auto; 
+                float: none; 
+            }
+            #right { 
+                width: auto; 
+                float: none; 
+            }
+        }
+
+        #top {
+            height: 200px;
+            position: relative; 
+        }
+        /*CSS 절대좌표 활용*/
+         #logo {
+            width: 200px; height: 200px;
+            position: absolute;
+            left: 50%; top: 50%;
+            margin-left: -100px;
+            margin-top: -100px;
+        } 
+        
+
+        #menu > ul {
+            margin: 0 auto;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 0;
+        }
+        #menu ul > li {
+            float: left;
+            list-style-type: none;
+            text-align: center;
+            padding: 7px 30px;
+        }
+        a { text-decoration: none; color: darkslategray;}
+
+        #Lumos > img:hover { filter: drop-shadow(30px 30px 15px #ffffff); }
